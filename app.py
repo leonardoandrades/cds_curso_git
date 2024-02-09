@@ -62,7 +62,7 @@ def create_answers_section(df):
 
 def main():
     df = load_data()
-
+    create_dataframe_section(df)
     st.dataframe(df)
 
 if __name__ == '__main__':
